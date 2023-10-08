@@ -1,6 +1,7 @@
 package com.app.movieticket.models;
 
 
+import com.app.movieticket.dtos.ShowSeatDTO;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -31,4 +32,6 @@ public class ShowSeat extends Exposed {
                 super.toString() +
                 '}';
     }
+
+
 }
